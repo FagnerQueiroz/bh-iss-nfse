@@ -1,0 +1,65 @@
+
+/* ######################## <div> MENSAGENS ######################## */
+
+#mensagens {
+	font-size: 9pt;
+	color: #000000;
+	line-height: 16px;
+	margin: 10px;
+	_margin: 5px;
+	/* */
+	padding: 0px 5px 0px 5px;
+	color:#999999;
+	font: 12px Trebuchet MS, Verdana, Arial;
+    border: 0px solid #999999;
+}
+#mensagens legend {
+	padding: 0px 5px 0px 5px;
+	color:#999999;
+	font-size: 12px;
+    border: 0px solid #999999;
+}
+.mensagensok {
+	list-style-image: url("../images/icon/li_msg_ok.gif");
+}
+.mensagenserro {
+	list-style-image: url("../images/icon/li_msg_error.gif");
+}
+.mensagensalerta {
+	list-style-image: url("../images/icon/li_msg_warn.gif");
+}
+#mensagens ul {
+	margin: 5px 0px 5px 0px;
+	_margin-left: 40px;
+	vertical-align: middle;
+}
+/* ######################## <table> CLASS LISTA ######################## */
+.rich-datascr-button {
+border: 0px;
+}
+.rich-dtascroller-table {
+border: 0px;
+}
+.rich-datascr-act{
+border:0px;
+}
+.rich-datascr-inact{
+border:0px;
+}
+
+.tableResult{
+margin:15px 0;
+background: #73CDDD;
+}
+.tableResult tr td {
+padding-left:3px;
+background: #FFFFFF;
+}
+
+.tituCel{
+background-color:#FFFFFF;
+background:#FFFFFF;
+color:#FF8000;}
+.branco{
+background-color:#FFFFFF;
+}

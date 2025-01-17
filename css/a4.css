@@ -1,0 +1,234 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font: 11px "Trebuchet MS", Verdana, Arial;
+	color: #175366;
+	text-align: center;
+}
+.teste{
+	font: 11px "Trebuchet MS", Verdana, Arial;
+	color: #175366;
+}
+#moldura {
+	position: relative;
+	width: 646px;
+	margin: 0 auto;
+}
+	
+#container {
+	text-align: left;
+	margin: 0px auto;
+	border: 1px solid #BEDCE2;
+	position: relative;
+	width: 646px;
+}
+
+#cancelada {
+	z-index: 1000;
+	position: absolute;
+	top: 150px;
+	left: 50px;
+}
+
+.logotipo {
+	margin: 3px 8px 3px 5px;
+}
+
+.hh1{
+	font: 18px "Trebuchet MS", Verdana, Arial;
+	color: #175366;
+	background: #F2F2F2;
+	text-align: center;
+	padding: 2px 0px;
+	font-weight: normal;
+}
+
+.hh2{
+	font: bold 13px "Trebuchet MS", Verdana, Arial;
+	color: #175366;
+	border-bottom: 1px solid #65A0C0;
+	margin: 3px 0 0 2px;
+}
+
+.hh3{
+	font: 12px "Trebuchet MS", Verdana, Arial;
+	color: #175366;
+	margin: 3px 0px 0px;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 18px;
+	background: #F2F2F2;
+	text-align: center;
+	padding: 2px 0px;
+	font-weight: normal;
+}
+h2 {
+	border-bottom: 1px solid #65A0C0;
+	font-size: 18px;
+	font-weight: normal;
+}
+h3 {
+	font-size: 12px;
+	margin: 3px 0px 0px;
+}
+.numeroDestaque {
+	font-size: 24px;
+	color: #c32b16;
+}
+.valorLiquido {
+	font-size: 13px;
+	color: #c32b16;	
+	padding: 5px 5px 2px;
+}
+.issRetido {
+	font-size: 14px;
+	color: #c32b16;	
+	padding: 5px 5px 2px;
+}
+.cnpjPrincipal {
+	font-size: 12px;
+	font-weight: bold;
+}
+.bordaInferior {
+	border-bottom: 1px solid #AFD1D8;
+}
+.bordaLateral {
+	border-right: 1px solid #AFD1D8;	
+}
+.subTitulo {
+	font-size: 12px;
+	font-weight: bold;	
+}
+.box01 {
+	width: 490px;
+	background: url(../img/bg_box01.gif) no-repeat;
+	text-align: center;
+	margin: 0px 5px 0px 0px;
+}
+.box01 table {
+	width: 480px;
+	text-align: left;
+	margin: 0px auto;
+}
+.box02 {
+	width: 646px;
+	background: url(../img/bg_box02.gif) no-repeat;
+	text-align: center;
+	margin: 0px 5px 0px 0px;
+}
+.box02 table {
+	width: 636px;
+	text-align: left;
+	margin: 2px auto 0px;
+}
+.box03 {
+	background: url(../img/bg_box03.gif);
+	height: 95px;
+	width: 145px;
+	margin: 10px 0px 0px 3px;
+}
+.box03 h4 {
+	font-size: 18px;
+	margin: 7px 0px 0px 7px;
+}
+.box03 p {
+	font-size: 13px;
+	margin: 0px 0px 2px 7px;
+}
+.box04 {
+	font: 11px "Trebuchet MS", Verdana, Arial;
+	color: #175366;
+	margin: 2px 3px;
+	padding: 2px;
+	background: #f3f3f3;
+}
+.box05 {
+	width: 314px;
+	background: url(../img/bg_box05.gif) no-repeat;
+	text-align: center;
+	margin: 6px 5px 0px 0px;
+}
+.box05 table {
+	width: 296px;
+	text-align: left;
+	margin: 2px auto 2px;
+}
+.box05 table td {
+	padding: 2px 0;
+}
+.boxDados td {
+	padding: 5px 4px;
+}
+.tableValores {
+	font-size: 12px;
+	padding: 2px 0 4px;
+}
+.tableTributos {
+	background: #ccd698;
+	font-size: 10px;
+	margin: 2px 5px 5px 5px;	
+}
+.tableTributos th {
+	background: #eeeeee;
+	text-align: center;	
+	padding: 1px 3px;
+}
+.tableTributos td {
+	background: #FFFFFF;
+	text-align: right;
+	padding: 1px 3px;	
+}
+ul {
+	margin: 2px 0px 2px 15px;	
+}
+li {
+	margin: 2px 0px 2px 3px;
+}
+.linhaDivisao {
+	display: none;
+}
+.dataEmissao {
+	font-size: 16px;
+	font-weight: bold;
+}
+.servicos {
+	padding: 0 2px;
+	font-size: 11px;
+}
+
+@media print {
+	body {
+		font: 10px "Trebuchet MS", Verdana, Arial;
+		color: #175366;
+		text-align: center;
+	}
+	.noprint {
+		display: none;
+	}
+	.box01, .box02, .box03, .box04, .box05 {
+		background: none;
+	}
+	.linhaDivisao {
+		display: block;
+		margin-bottom: -1px;
+	}
+	.hh2{
+		font: bold 13px "Trebuchet MS", Verdana, Arial;
+		color: #175366;
+		border-bottom: 1px solid #65A0C0;
+		margin: 0px;
+	}
+	.servicos {
+		padding: 0 2px;
+		font-size: 9px;
+	}
+	.subTitulo {
+		font-size: 11px;
+		font-weight: bold;	
+	}
+}
+

@@ -1,0 +1,174 @@
+.rich-fileupload-list-overflow {
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.rich-fileupload-name {
+	height: 58px;
+	padding: 2px 10px;
+	width: 100%;
+}
+
+.rich-fileupload-del {
+	text-align: center;
+	width: 90px;
+}
+
+.rich-fileupload-scroll {
+	text-align: center;
+	width: 10px;
+}
+
+.rich-fileupload-button-content {
+	padding: 2px 6px 2px 3px;
+	text-align: left;
+	white-space: nowrap;
+}
+
+.rich-fileupload-name-padding {
+	padding: 2px 0pt;
+}
+
+.rich-fileupload-ico {
+	background-position: 0pt 50%;
+	background-repeat: no-repeat;
+	padding-left: 19px;
+	vertical-align: middle;
+}
+
+input.rich-fileupload-hidden {
+	opacity: 0;
+	position: relative;
+	text-align: left;
+}
+
+.rich-fileupload-font {
+	font-family: Trebuchet MS, Verdana, Arial;
+	font-size: 11px;
+	color: #006600;
+}
+
+.rich-fileupload-table-td {
+	border-bottom: 0px solid;
+	white-space: nowrap;
+}
+
+.rich-fileupload-list-decor {
+	background-color: #FFFFFF;
+	border: 1px solid #176753;
+}
+
+.rich-fileupload-anc {
+	color: #176753;
+}
+
+.rich-fileupload-toolbar-decor {
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #176753;
+	border-left: 1px solid #FFFFFF;
+	border-top: 1px solid #FFFFFF;
+	padding: 2px;
+	width: 100%;
+}
+
+.rich-fileupload-button-border {
+	border: 1px solid #176753;
+	margin: 2px;
+}
+
+.rich-fileupload-button-dis {
+	background-repeat: repeat-x;
+	cursor: pointer;
+	padding: 2px;
+}
+
+.rich-fileupload-enrty-dis {
+	background-color: #006600;
+	background-repeat: repeat-x;
+	padding: 2px;
+}
+
+a.rich-fileupload-button-selection {
+	color: #006600;
+	display: block;
+	text-decoration: none;
+}
+
+.rich-fileupload-button {
+	background-color: #FFFFFF;
+	background-image:url(/N../images/bg_nav.jpg);
+	background-position: left top;
+	background-repeat: repeat-x;
+	cursor: pointer;
+	padding: 2px;
+}
+
+.rich-fileupload-button-light {
+	background-color: #FFFFFF;
+	background-image:url();
+	background-position: left top;
+	background-repeat: repeat-x;
+	border: 1px solid #000000;
+	cursor: pointer;
+	padding: 1px;
+}
+
+.rich-fileupload-button-press {
+	background-color: #FFFFFF;
+	background-image:url();
+	background-position: left top;
+	background-repeat: repeat-x;
+	border: 1px solid;
+	padding: 2px 0pt 0pt 2px;
+}
+
+/* 
+ .rich-fileupload-ico-add {
+	background-image:
+		url(/NFS-web/a4j_3_2_0.SR1-SNAPSHOTorg/richfaces/renderkit/html/images/ico_add.gif.jsf)
+		;
+}
+
+.rich-fileupload-ico-add-dis {
+	background-image:
+		url(/NFS-web/a4j_3_2_0.SR1-SNAPSHOTorg/richfaces/renderkit/html/images/ico_add_dis.gif.jsf)
+		;
+	color: #176753;
+}
+
+.rich-fileupload-ico-start {
+	background-image:
+		url(/NFS-web/a4j_3_2_0.SR1-SNAPSHOTorg/richfaces/renderkit/html/images/ico_start.gif.jsf)
+		;
+}
+
+.rich-fileupload-ico-start-dis {
+	background-image:
+		url(/NFS-web/a4j_3_2_0.SR1-SNAPSHOTorg/richfaces/renderkit/html/images/ico_start_dis.gif.jsf)
+		;
+	color: #176753;
+}
+
+.rich-fileupload-ico-stop {
+	background-image:
+		url(/NFS-web/a4j_3_2_0.SR1-SNAPSHOTorg/richfaces/renderkit/html/images/ico_stop.gif.jsf)
+		;
+}
+
+.rich-fileupload-ico-clear {
+	background-image:
+		url(/NFS-web/a4j_3_2_0.SR1-SNAPSHOTorg/richfaces/renderkit/html/images/ico_clear.gif.jsf)
+		;
+}
+
+.rich-fileupload-ico-clear-dis {
+	background-image:
+		url(/NFS-web/a4j_3_2_0.SR1-SNAPSHOTorg/richfaces/renderkit/html/images/ico_clear_dis.gif.jsf)
+		;
+	color: #176753;
+}
+*/
+.rich-fileupload-button-border {
+border:1px solid #176753;
+margin:2px;
+}

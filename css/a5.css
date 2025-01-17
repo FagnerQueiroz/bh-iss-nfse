@@ -1,0 +1,52 @@
+#popResumo {
+/*	border: 1px solid #CCCCCC; */
+	width: 630px;
+	background: #FFFFFF;
+	color: #000000;
+/*	position: absolute; */
+/*	top: 100px; */
+/*	left: 70px; */
+}
+#popAjuda {
+	border: 1px solid #CCCCCC; 
+	width: 500px;
+	background: #FFFFFF;
+	position: absolute; 
+	top: 100px;
+	left: 100px;
+}
+#popResumo h1, #popAjuda h1 {
+	font-size: 16px;
+	color: #2e7b8c;
+	margin: 3px 3px 8px; 
+	padding: 0px 0px 4px;
+/*	border-bottom: 1px solid #c8cecd; */
+	font-weight: normal;
+/*	position: relative; */
+}
+.fecharPop {
+	position: absolute;
+	top: 2px;
+	right: 2px;
+}
+#popResumo h2 {
+	font-size: 16px;
+	margin: 3px 3px 8px 10px;
+	font-weight: normal;
+}
+#popResumo h3 {
+	color: #000000;
+	font-size: 12px;
+}
+.resumoDestaque {
+	color: #CC0000;
+}
+#popResumo table {
+	margin: 3px 0px 8px 10px;
+}
+#popResumo table td {
+	border-bottom: 1px solid #E6E6E6;	
+}
+.txtAjuda {
+	margin: 3px 20px 15px 25px;
+}
