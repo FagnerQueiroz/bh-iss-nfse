@@ -1,0 +1,3 @@
+Diretorio para armazenar os xml.
+CNPJ/ANO/XML.XML
+Será criado conforme geração das notas
